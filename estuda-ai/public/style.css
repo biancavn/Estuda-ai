@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: 'Jost', 'sans-serif';
+    background-color: #f0f0f0;;
+    height: 100%;
+}
+
+/*
+parte branca do comentario
+*/
+
+.comentario {
+    border-collapse: collapse;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    color: black;
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    text-align: justify;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+/*padding imagens usuario*/
+.user {
+    padding-top: 10px;
+}
+
+/* deixar imagem e comentario lado a lado*/
+.pesquisa-comentario {
+    display: flex;
+}
+
+/* cor dos links*/
+ul{
+    list-style-type: circle;
+    font-size: 17px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    
+}
+
+.link:hover, .link:visited{
+    text-decoration: none;
+    color: #B3093F;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+h1 {
+    font-weight: bolder;
+    color: #64B7CC;
+    font-size: 45px;
+}
+
+h3 {
+    font-weight: bold;
+    color: #B3093F;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+h4{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #AF437A;
+}
+
+p {
+    text-align: justify;
+    font-size: 17px;
+    text-indent: 2em;;
+
+}
+
+.imagem-fundo{
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.margem-section{
+    margin: 25px 80px;
+    
+}
+
+.margem-section-conteudo{
+    margin: 40px 90px;
+    padding: 30px 120px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.duas-colunas {
+    column-count: 3; /* Divide o texto em 2 colunas */
+    column-gap: 20px; /* Espaço entre as colunas */
+  }
